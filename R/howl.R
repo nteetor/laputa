@@ -1,0 +1,13 @@
+#665D60
+#B8B2A5
+#FEC3AD
+#030713
+#0D132E
+#2D5495
+#D4BA9E
+#FEF79D
+#FCB85D
+#B7582A
+theme_howl <- function() {
+  NULL
+}

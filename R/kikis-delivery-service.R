@@ -1,0 +1,13 @@
+#4298A2
+#2888A5
+#1F3F6A
+#1D4A9B
+#8E8656
+#D4D676
+#3F416B
+#CAB9B3
+#2A0909
+#C33A43
+theme_kiki <- function() {
+  NULL
+}
