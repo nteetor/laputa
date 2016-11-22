@@ -1,19 +1,17 @@
-#' Laputa Color Palette (Discrete)
+#' Spirited Away Color Palette (Discrete)
 #'
 #' ...
 #'
-#' @param n Number of colors
-#'
 #' @export
-laputa_pal <- function(type = 'seq', scheme = 1, reverse = FALSE) {
+spirited_away_pal <- function(type = 'seq', scheme = 1, reverse = FALSE) {
   if (!(type %in% c('qual', 'div', 'seq'))) {
     stop('`type` must be one of "qual", "div", or "seq"', call. = FALSE)
   }
 
-  pal <- palette_helper('laputa', type, scheme)
+  pal <- palette_helper('spirited-away', type, scheme)
 
   function(n) {
-    if (n < 0) {
+    if (n < 1) {
       stop('expected number of colors to be greater than 1', call. = FALSE)
     }
 
@@ -24,7 +22,7 @@ laputa_pal <- function(type = 'seq', scheme = 1, reverse = FALSE) {
     }
 
     if (reverse) {
-      cols <- rev(cols)
+      cols <- reverse(cols)
     }
 
     cols
