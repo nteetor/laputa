@@ -1,4 +1,6 @@
-# miyazaki
+# miyazaki 
+
+![This project is highly experimental](https://img.shields.io/badge/lifecycle-primer-orange.svg)
 
 ###### Color palettes adpated from the films of Hayao Miyazaki.
 
